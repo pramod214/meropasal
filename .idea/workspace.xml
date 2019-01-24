@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/resources/views/admin/admin_profile.blade.php" description="@section('script')&#10;    &lt;script src=&quot;{{asset('publi..." line="189" />
+    <bookmark url="file://$PROJECT_DIR$/../upakar/resources/views/admin/slider/index.blade.php" line="65" mnemonic="4" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7e7417-577e-41d0-8337-b16cf4e31d3e" name="Default" comment="" />
+    <list default="true" id="aa7e7417-577e-41d0-8337-b16cf4e31d3e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/evening_portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/evening_portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/scripts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin_login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/app/Http/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/app/Http/Controllers/AboutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/app/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/app/Portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/resources/views/admin/about/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/resources/views/admin/about/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/119389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/131278.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/138879.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/185013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/209798.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/237913.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/269350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/291474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/325171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/343804.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/444496.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/4465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/550699.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/605197.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/644426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/698929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/709642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/741188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/76697.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/87851.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/9132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/940375.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,34 +78,89 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>blog</find>
+      <find>tes</find>
+      <find>about</find>
+      <find>register</find>
+      <find>front.store</find>
+      <find>/admin/site/update/{id}</find>
+      <find>admin.site.update</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../upakar" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/admin_login.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/includes/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/includes/frontend_design.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/includes/script.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_11_115335_create_products_attributes_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_22_073824_create_product_attributes_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_10_013138_create_products_table.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/app/Products.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_01_22_074837_create_products_attributes_table.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/scripts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/head.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/admin_profile.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_06_124452_create_categories_table.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_06_163046_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/memberform/memberform.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/script.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/FormController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/member_form.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_060608_add_slug_column_to_projects.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_061223_add_slug_column_to_projects.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/contact.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_085012_create_notices_table.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/NoticeController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/notice/createNotice.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/notice/editNotice.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/notice/viewNotices.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102215_add_year_column_to_notices.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102405_add_month_column_to_notices.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102550_add_day_column_to_notices.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" />
+        <option value="$PROJECT_DIR$/../upakar/routes/web.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_170123_add_body_column_to_projects.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" />
       </list>
     </option>
   </component>
@@ -135,51 +256,112 @@
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../upakar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\upakar\resources\views\frontend\includes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,22 +394,60 @@
       <workItem from="1545911491377" duration="4723000" />
       <workItem from="1546776667306" duration="3907000" />
       <workItem from="1546791580943" duration="7000" />
-      <workItem from="1546791648034" duration="1138000" />
+      <workItem from="1546791648034" duration="2651000" />
+      <workItem from="1546877915864" duration="3925000" />
+      <workItem from="1546907791567" duration="1838000" />
+      <workItem from="1546948718428" duration="3694000" />
+      <workItem from="1547034780338" duration="1851000" />
+      <workItem from="1547083837221" duration="462000" />
+      <workItem from="1547084334774" duration="597000" />
+      <workItem from="1547097556761" duration="16997000" />
+      <workItem from="1547122496552" duration="411000" />
+      <workItem from="1547130369805" duration="598000" />
+      <workItem from="1547134972423" duration="7833000" />
+      <workItem from="1547145351784" duration="25000" />
+      <workItem from="1547145416468" duration="237000" />
+      <workItem from="1547145829884" duration="755000" />
+      <workItem from="1547206578338" duration="52000" />
+      <workItem from="1547206970605" duration="3006000" />
+      <workItem from="1547489126769" duration="165000" />
+      <workItem from="1547521908451" duration="3175000" />
+      <workItem from="1547525993765" duration="31844000" />
+      <workItem from="1547573837528" duration="2285000" />
+      <workItem from="1547624616829" duration="8201000" />
+      <workItem from="1547693198501" duration="23637000" />
+      <workItem from="1547778457314" duration="13815000" />
+      <workItem from="1547800736062" duration="1775000" />
+      <workItem from="1547994833696" duration="3658000" />
+      <workItem from="1548045648185" duration="2218000" />
+      <workItem from="1548072088766" duration="3647000" />
+      <workItem from="1548084896266" duration="10208000" />
+      <workItem from="1548133636614" duration="11293000" />
+      <workItem from="1548145412983" duration="777000" />
+      <workItem from="1548157477263" duration="5235000" />
+      <workItem from="1548168686712" duration="6886000" />
+      <workItem from="1548178132787" duration="1950000" />
+      <workItem from="1548221156130" duration="17920000" />
+      <workItem from="1548243225103" duration="4289000" />
+      <workItem from="1548250033213" duration="637000" />
+      <workItem from="1548258606172" duration="5428000" />
+      <workItem from="1548295539357" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18936000" />
+    <option name="totallyTimeSpent" value="222372000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1536" height="864" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32317072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17516778" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -235,8 +455,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32240438" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329235" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3198324" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.325419" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -248,164 +468,355 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/SliderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_22_074837_create_products_attributes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_18_024301_create_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="20" selection-start-line="15" selection-start-column="32" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_163046_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_060608_add_slug_column_to_projects.php" />
+    <entry file="file://$PROJECT_DIR$/../project3/database/migrations/2018_12_27_120944_add_details_column_to_users_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_061223_add_slug_column_to_projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="442">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/FormController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/admin_login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="118" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="101" column="115" selection-start-line="101" selection-start-column="115" selection-end-line="101" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/admin_profile.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="311">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="34" />
           <folding>
-            <marker date="1545866986000" expanded="true" signature="2210:2218" ph="{...}" />
-            <marker date="1545866986000" expanded="true" signature="2210:2220" ph="{...}" />
+            <element signature="e#41#54#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/head.blade.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_dashboard.blade.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/about/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="135" column="11" lean-forward="true" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/slider/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="10" />
           <folding>
-            <marker date="1545866986000" expanded="true" signature="9:42" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="54:63" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <marker date="1545866986000" expanded="true" signature="15:79" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="150:221" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="250:323" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="366:411" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="440:486" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="515:571" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="644:737" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="766:833" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="883:926" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="976:1025" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1080:1128" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1207:1275" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1304:1403" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1450:1507" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1536:1593" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1638:1699" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1728:1790" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1820:1885" ph="..." />
-            <marker date="1545866986000" expanded="true" signature="1906:1914" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
+            <element signature="e#68#986#0#HTML" />
+            <element signature="e#106#975#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="62" column="118" selection-start-line="62" selection-start-column="118" selection-end-line="62" selection-end-column="125" />
+        <state relative-caret-position="272">
+          <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="77" selection-end-column="21" />
+        <state relative-caret-position="493">
+          <caret line="86" column="53" lean-forward="true" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_124452_create_categories_table.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="110" lean-forward="true" selection-start-line="29" selection-start-column="110" selection-end-line="29" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/slider/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_085012_create_notices_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/NoticeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/createNotice.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="60" column="99" selection-start-line="60" selection-start-column="99" selection-end-line="60" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/editNotice.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="50" column="100" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/viewNotices.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102550_add_day_column_to_notices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102405_add_month_column_to_notices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102215_add_year_column_to_notices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/news&amp;events.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/MailController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="21" selection-end-column="42" />
+          <caret line="17" column="13" selection-start-line="16" selection-start-column="31" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_163046_create_categories_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="25">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="66" />
+          <folding>
+            <element signature="e#40#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_170123_add_body_column_to_projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="174" column="22" lean-forward="true" selection-start-line="172" selection-start-column="20" selection-end-line="174" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="59" column="99" selection-start-line="59" selection-start-column="99" selection-end-line="59" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('public/adminpanel/assets/images/favicon.png')}}">
-    <title>Portfolio Admin Login Page</title>
+    <title> Admin Login Page</title>
     <!-- Custom CSS -->
     <link href="{{asset('public/adminpanel/dist/css/style.min.css') }}" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

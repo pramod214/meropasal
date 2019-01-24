@@ -149,7 +149,7 @@
         @yield('content')
 
         <footer class="footer text-center">
-            All Rights Reserved by Sushan Paudyal. Designed and Developed by
+            All Rights Reserved by Pramod Neupane. Designed and Developed by
             <a href="https://onlinezeal.com" target="_blank">Online Zeal</a>.
         </footer>
         <!-- ============================================================== -->

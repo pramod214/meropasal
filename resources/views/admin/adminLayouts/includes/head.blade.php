@@ -7,13 +7,15 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('public/adminpanel/assets/images/favicon.png')}}">
-    <title>Admin Panel - Portfolio</title>
+    <title>Admin Panel</title>
     <!-- Custom CSS -->
     <link href="{{asset('public/adminpanel/assets/libs/chartist/dist/chartist.min.css')}}" rel="stylesheet">
     <link href="{{asset('public/adminpanel/assets/extra-libs/c3/c3.min.css')}}" rel="stylesheet">
     <link href="{{asset('public/adminpanel/assets/libs/morris.js/morris.css')}}" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="{{asset('public/adminpanel/dist/css/style.min.css')}}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{asset('public/adminpanel/dist/css/toastr.css')}}">
 @yield('style')
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

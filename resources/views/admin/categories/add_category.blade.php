@@ -46,6 +46,9 @@
                                 <div class="col-10">
                                     <select class="custom-select col-12" name="parent_id" id="parent_id">
                                         <option value="0">Main Category</option>
+                                        @foreach($levels as $level)
+                                            <option value="{{$level->id}}">{{$level->name}}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
@@ -86,7 +89,7 @@
     @endsection
 
 @section('script')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js?fbclid=IwAR0gve14W2V8EXN6DR0mdbmJ6_pcNkxyRRcUjMPer_eKY7pwwSj8E-WcaKM">
+    <script src="{{asset('public/js/jquery.validate.js')}}">
 </script>
         <script type="text/javascript">
             $(document).ready(function () {

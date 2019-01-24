@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/','IndexController@index')->name('indexpage');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -31,6 +28,17 @@ Route::group(['middleware' => ['auth']], function(){
 
 
     Route::match(['get', 'post'], '/admin/add-category', 'CategoryController@addCategory')->name('category.add');
+    Route::get('/admin/view-category','CategoryCOntroller@viewCategory')->name('category.view');
+    Route::match(['get','post'],'/admin/edit-category/{id}','CategoryController@editCategory')->name('category.edit');
+    Route::match(['get', 'post'], '/admin/delete-category/{id}', 'CategoryController@deleteCategory')->name('category.delete');
+
+    Route::match(['get','post'],'/admin/add-product','ProductsController@addproduct')->name('product.add');
+    Route::get('/admin/view-products','ProductsController@viewproducts')->name('products.view');
+    Route::match(['get','post'],'/admin/edit-product/{id}','ProductsController@editproduct')->name('product.edit');
+    Route::get('/admin/delete-product/{id}','ProductsController@deleteproduct')->name('product.delete');
+
+    Route::match(['get','post'],'/admin/add_attributes/{id}','ProductsController@addAttributes')->name('product.addAttribute');
+    Route::get('/admin/delete-attribute/{id}', 'ProductsController@deleteAttribute')->name('delete.attribute');
 });
 
 
