@@ -12,7 +12,7 @@ class CategoryController extends Controller
         if($request->isMethod('post')){
             $data = $request->all();
             $category = new Category;
-            $category->name = ucwords(strtolower($data['name']));
+            $category->name = ucwords($data['name']);
             $category->description = $data['description'];
             $category->slug = str_slug($data['name']);
             if(empty($data['status'])){

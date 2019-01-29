@@ -96,7 +96,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="project3" />
-    <orderEntry type="module" module-name="ecommerce" />
-    <orderEntry type="module" module-name="ecommerce" />
+    <orderEntry type="module" module-name="hamroshop" />
   </component>
 </module>

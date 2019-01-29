@@ -6,64 +6,330 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7e7417-577e-41d0-8337-b16cf4e31d3e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/database/migrations/2019_01_27_082332_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/database/migrations/2019_01_27_082332_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/resources/views/admin/adminLayouts/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/resources/views/admin/adminLayouts/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/bin/php-parse.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/bin/php-parse.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/bin/phpunit.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/bin/phpunit.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/bin/var-dump-server.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/bin/var-dump-server.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/fideloper/proxy/config/trustedproxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/fideloper/proxy/config/trustedproxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/fideloper/proxy/src/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/fideloper/proxy/src/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Console/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Console/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/FreshCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/RefreshCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/StatusCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/StatusCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/DetectsLostConnections.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/DetectsLostConnections.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasMany.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasMany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasManyThrough.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasManyThrough.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphOne.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphOne.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Schema/ColumnDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Database/Schema/ColumnDefinition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Auth/VerifiesEmails.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Auth/VerifiesEmails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Bus/Dispatchable.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Bus/Dispatchable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/ModelMakeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/ModelMakeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/None.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/None.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/React.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/React.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/401.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/401.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/403.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/403.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/404.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/419.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/419.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/429.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/429.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/500.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/503.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/503.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithRedis.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithRedis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/PendingCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/PendingCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Resources/Json/JsonResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Resources/Json/JsonResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Resources/MergeValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Http/Resources/MergeValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Log/LogManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Log/LogManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Routing/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Routing/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Support/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Support/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Support/Str.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Support/Str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Validation/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Validation/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nesbot/carbon/src/Carbon/Carbon.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nesbot/carbon/src/Carbon/Carbon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nexmo/client/examples/fetch_recording.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nexmo/client/examples/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nexmo/client/src/Client/Signature.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nexmo/client/src/Client/Signature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/0_Introduction.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/0_Introduction.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/2_Usage_of_basic_components.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/2_Usage_of_basic_components.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/component/AST_builders.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/component/AST_builders.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/component/JSON_representation.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/component/JSON_representation.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/component/Walking_the_AST.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/doc/component/Walking_the_AST.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/grammar/php5.y" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/grammar/php5.y" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/grammar/php7.y" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/grammar/php7.y" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Builder/Property.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Builder/Property.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Double.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Double.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NameResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NameResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/PhpParser/NodeVisitor/NameResolverTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/PhpParser/NodeVisitor/NameResolverTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/PhpParser/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/PhpParser/ParserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/formatPreservation/anonClasses.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/formatPreservation/anonClasses.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/commentAtEndOfClass.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/commentAtEndOfClass.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/errorHandling/recovery.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/errorHandling/recovery.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/semiReserved.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/semiReserved.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/anonymous.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/anonymous.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/implicitPublic.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/implicitPublic.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/modifier.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/modifier.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/php4Style.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/php4Style.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/simple.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/parser/stmt/class/simple.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/prettyPrinter/expr/operators.test" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/nikic/php-parser/test/code/prettyPrinter/expr/operators.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ClosureContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ClosureContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ClosureScope.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ClosureScope.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ClosureStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ClosureStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ReflectionClosure.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/ReflectionClosure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/SelfReference.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/SelfReference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/SerializableClosure.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/opis/closure/src/SerializableClosure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/ChangeLog-7.5.md" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/ChangeLog-7.5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/phive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/phive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Framework/TestSuite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Runner/Version.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Runner/Version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Util/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Util/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Util/XdebugFilterScriptGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/src/Util/XdebugFilterScriptGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/_files/FunctionCallback.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/_files/FunctionCallback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/_files/RequirementsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/_files/RequirementsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Framework/MockObject/MockObjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Framework/MockObject/MockObjectTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Framework/TestCaseTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Framework/TestCaseTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Framework/TestSuiteTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Framework/TestSuiteTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Util/TestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Util/TestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Util/XDebugFilterScriptGeneratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Util/XDebugFilterScriptGeneratorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/phpunit/phpunit/tests/unit/Util/_files/expectedXDebugFilterScript.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Command/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Command/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Formatter/OutputFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Formatter/OutputFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/ProcessHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/ProcessHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/ProgressBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/ProgressBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/ProgressIndicator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/ProgressIndicator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/QuestionHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Helper/QuestionHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tester/TesterTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tester/TesterTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tests/ApplicationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tests/ApplicationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tests/Command/CommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tests/Command/CommandTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tests/Tester/CommandTesterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/console/Tests/Tester/CommandTesterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/css-selector/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/css-selector/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/css-selector/XPath/Translator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/css-selector/XPath/Translator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/DebugClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/DebugClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/ExceptionHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/ExceptionHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/debug/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Debug/WrappedListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/EventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/EventDispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Tests/Debug/WrappedListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/event-dispatcher/Tests/Debug/WrappedListenerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/Iterator/CustomFilterIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/Iterator/CustomFilterIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/Iterator/SortableIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/Iterator/SortableIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/Tests/FinderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/finder/Tests/FinderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/HeaderBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/HeaderBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/StreamedResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/StreamedResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Tests/RequestTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Tests/RequestTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/PdoSessionHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/PdoSessionHandlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Debug/FileLinkFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Debug/FileLinkFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/DataCollector/DumpDataCollectorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/DataCollector/DumpDataCollectorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/EventListener/TranslatorListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/EventListener/TranslatorListenerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/Fragment/EsiFragmentRendererTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/Fragment/EsiFragmentRendererTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/Fragment/HIncludeFragmentRendererTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/Fragment/HIncludeFragmentRendererTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/Fragment/SsiFragmentRendererTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/Fragment/SsiFragmentRendererTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/HttpKernelTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/HttpKernelTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/UriSignerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/Tests/UriSignerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/UriSigner.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/http-kernel/UriSigner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/ExecutableFinder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/ExecutableFinder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/Process.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/Process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/Tests/ExecutableFinderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/Tests/ExecutableFinderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/Tests/KillableProcessWithOutput.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/process/Tests/KillableProcessWithOutput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Loader/ObjectRouteLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Loader/ObjectRouteLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/Dumper/PhpMatcherTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/Dumper/PhpMatcherTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/RedirectableUrlMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/UrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Matcher/UrlMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher1.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher10.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher11.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher12.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher13.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher13.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher2.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher3.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher4.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher5.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher6.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher7.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher8.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher9.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Matcher/UrlMatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/routing/Tests/Matcher/UrlMatcherTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/Catalogue/TargetOperation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/Catalogue/TargetOperation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/Command/XliffLintCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/Command/XliffLintCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/PluralizationRules.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/PluralizationRules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/Tests/TranslatorCacheTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/Tests/TranslatorCacheTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/TranslatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/translation/TranslatorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Cloner/VarCloner.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Cloner/VarCloner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Command/Descriptor/HtmlDescriptor.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Command/Descriptor/HtmlDescriptor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/Tests/Caster/SplCasterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/VarDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/VarDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/symfony/var-dumper/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/vlucas/phpdotenv/src/Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/vlucas/phpdotenv/src/Loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/.composer-auth.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/src/Assert.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/src/Assert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/evening_portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/evening_portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/scripts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin_login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin_login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/107796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/114800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/117153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/133629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/151252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/284951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/309737.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/377458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/47003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/622345.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/739520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/81725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/821934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/918865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/941477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/942229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/large/955664.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/107796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/114800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/117153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/133629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/151252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/284951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/309737.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/377458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/47003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/622345.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/739520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/81725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/821934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/918865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/941477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/942229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/medium/955664.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/107796.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/114800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/117153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/133629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/151252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/284951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/309737.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/377458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/47003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/622345.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/739520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/81725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/821934.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/918865.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/941477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/942229.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminpanel/uploads/products/small/955664.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/app/Http/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/app/Http/Controllers/AboutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/app/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/app/Portfolio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/resources/views/admin/about/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/resources/views/admin/about/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/AlbumController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/AlbumController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/PhotoController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/119389.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/131278.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/138879.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/185013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/209798.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/237913.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/269350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/291474.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/325171.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/343804.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/444496.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/4465.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/550699.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/605197.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/644426.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/698929.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/709642.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/741188.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/76697.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/87851.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/9132.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/940375.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/app/IndividulPhoto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/database/migrations/2019_01_27_185040_create_individul_photos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/gallery/717724.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/36002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/574186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/699634.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/public/adminpanel/uploads/project/779869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/album/create_album.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/album/create_album.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/album/edit_album.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/album/edit_album.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/album/view_albums.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/album/view_albums.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/photo/addphoto.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/photo/editphoto.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/photo/viewphotos.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/photo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/photo.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../upakar/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../upakar/routes/web.php" afterDir="false" />
@@ -79,11 +345,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/products/listing.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,68 +392,76 @@
       <find>front.store</find>
       <find>/admin/site/update/{id}</find>
       <find>admin.site.update</find>
+      <find>mgtop</find>
+      <find>img-responsive</find>
+      <find>album</find>
+      <find>color</find>
+      <find>foo</find>
+      <find>slider</find>
+      <find>img</find>
+      <find>slider.store</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../upakar" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/frontend/includes/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/includes/frontend_design.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/includes/script.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_11_115335_create_products_attributes_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_22_073824_create_product_attributes_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_12_27_120530_add_details_column_to_users_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_10_013138_create_products_table.php" />
-        <option value="$PROJECT_DIR$/app/Category.php" />
-        <option value="$PROJECT_DIR$/app/Products.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_01_22_074837_create_products_attributes_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/adminLayouts/admin_design.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/memberform/memberform.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/script.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/album.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_25_135023_create_individual_photos_table.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/photo/addPhoto.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/photo/editPhoto.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/photo/viewPhotos.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/PhotoController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/photo.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/contact.blade.php" />
         <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/FormController.php" />
         <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/member_form.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_060608_add_slug_column_to_projects.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_061223_add_slug_column_to_projects.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/contact.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_085012_create_notices_table.php" />
-        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/NoticeController.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/notice/createNotice.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/notice/editNotice.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/notice/viewNotices.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102215_add_year_column_to_notices.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102405_add_month_column_to_notices.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102550_add_day_column_to_notices.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" />
-        <option value="$PROJECT_DIR$/../upakar/routes/web.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" />
+        <option value="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/.env" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/admin_login.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/database/migrations/2019_01_26_115400_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/adminLayouts/includes/head.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/adminLayouts/includes/scripts.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/categories/add_category.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/view_categories.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/categories/edit_category.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/categories/view_categories.blade.php" />
         <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php" />
-        <option value="$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_170123_add_body_column_to_projects.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php" />
         <option value="$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php" />
+        <option value="$USER_HOME$/Downloads/Compressed/creative-action/index.html" />
+        <option value="$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/database/migrations/2019_01_27_082332_create_products_table.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/adminLayouts/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/routes/web.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/resources/views/admin/products/add_Product.blade.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/../hamroshop/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/slider/view.blade.php" />
         <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php" />
-        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/frontend/includes/nav.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Slider.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/slider/index.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/SliderController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/../upakar/store_message.php" />
+        <option value="$PROJECT_DIR$/../upakar/routes/web.php" />
+        <option value="$PROJECT_DIR$/../upakar/app/Http/Controllers/AboutController.php" />
+        <option value="$PROJECT_DIR$/../upakar/resources/views/admin/about/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/products/listing.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php" />
       </list>
     </option>
   </component>
@@ -256,10 +557,9 @@
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -275,76 +575,77 @@
           <expand>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="adminpanel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meropasal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upakar" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="meropasal" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,13 +655,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../upakar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\upakar\resources\views\frontend\includes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\upakar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,18 +736,38 @@
       <workItem from="1548243225103" duration="4289000" />
       <workItem from="1548250033213" duration="637000" />
       <workItem from="1548258606172" duration="5428000" />
-      <workItem from="1548295539357" duration="599000" />
+      <workItem from="1548295539357" duration="13252000" />
+      <workItem from="1548330291577" duration="2020000" />
+      <workItem from="1548334384486" duration="2006000" />
+      <workItem from="1548387168758" duration="8954000" />
+      <workItem from="1548402537575" duration="2982000" />
+      <workItem from="1548405776186" duration="11073000" />
+      <workItem from="1548471500781" duration="6873000" />
+      <workItem from="1548498629768" duration="4859000" />
+      <workItem from="1548506664618" duration="9245000" />
+      <workItem from="1548566510738" duration="13189000" />
+      <workItem from="1548588368495" duration="6110000" />
+      <workItem from="1548601796828" duration="5298000" />
+      <workItem from="1548609732163" duration="22000" />
+      <workItem from="1548645383170" duration="2610000" />
+      <workItem from="1548653938931" duration="2222000" />
+      <workItem from="1548676534475" duration="736000" />
+      <workItem from="1548694882355" duration="31000" />
+      <workItem from="1548695468802" duration="2823000" />
+      <workItem from="1548700433158" duration="195000" />
+      <workItem from="1548763662344" duration="2743000" />
+      <workItem from="1548779288068" duration="1251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222372000" />
+    <option name="totallyTimeSpent" value="320267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17516778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22885907" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -455,8 +780,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3198324" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.325419" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" weight="0.3198324" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3198324" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -468,355 +793,193 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/SliderController.php">
+    <entry file="file://$PROJECT_DIR$/../project3/store_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_22_074837_create_products_attributes_table.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/store_message.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/photogallery/viewgalleries.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/photogallery/editgallery.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/photogallery/addgallery.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_18_024301_create_projects_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="20" selection-start-line="15" selection-start-column="32" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_163046_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_060608_add_slug_column_to_projects.php" />
-    <entry file="file://$PROJECT_DIR$/../project3/database/migrations/2018_12_27_120944_add_details_column_to_users_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_061223_add_slug_column_to_projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/FormController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="e#41#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/about/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="135" column="11" lean-forward="true" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/memberform/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/slider/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/contact/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="e#68#986#0#HTML" />
-            <element signature="e#106#975#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/add_category.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="79" lean-forward="true" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/adminLayouts/includes/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="86" column="53" lean-forward="true" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="110" lean-forward="true" selection-start-line="29" selection-start-column="110" selection-end-line="29" selection-end-column="110" />
+        <state relative-caret-position="2346">
+          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/AboutController.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/includes/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="143" column="57" selection-start-line="143" selection-start-column="57" selection-end-line="143" selection-end-column="57" />
+        <state relative-caret-position="374">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/slider/view.blade.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="575">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_085012_create_notices_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/script.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/NoticeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/includes/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/createNotice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="60" column="99" selection-start-line="60" selection-start-column="99" selection-end-line="60" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/editNotice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="50" column="100" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/viewNotices.blade.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/photo.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="77" column="58" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102550_add_day_column_to_notices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102405_add_month_column_to_notices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102215_add_year_column_to_notices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/news&amp;events.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="56" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/MailController.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/photo/viewphotos.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/photo/editphoto.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/photo/addphoto.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/includes/script.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/ContactController.php">
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/includes/head.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="442">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="906">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/notice.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_25_033638_create_photos_table.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/PhotoController.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_25_135023_create_individual_photos_table.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/PhotoGalleryController.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_085012_create_notices_table.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_170123_add_body_column_to_projects.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102550_add_day_column_to_notices.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102405_add_month_column_to_notices.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_102215_add_year_column_to_notices.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/NoticeController.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/viewNotices.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/editNotice.blade.php" />
+    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/notice/createNotice.blade.php" />
     <entry file="file://$PROJECT_DIR$/../upakar/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/site/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="16" selection-start-column="31" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/FrontEndController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="66" />
-          <folding>
-            <element signature="e#40#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/public/front/css/ita-templates.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/projects.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/database/migrations/2019_01_23_170123_add_body_column_to_projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/project/createProject.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="174" column="22" lean-forward="true" selection-start-line="172" selection-start-column="20" selection-end-line="174" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/project/viewProjects.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="-153">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/project_blog.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-end-line="25" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/admin/project/editProject.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="59" column="99" selection-start-line="59" selection-start-column="99" selection-end-line="59" selection-end-column="99" />
+        <state relative-caret-position="221">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/app/Http/Controllers/ProjectController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/edit_product.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../upakar/resources/views/frontend/photogallery.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_22_074837_create_products_attributes_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_10_013138_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_06_163046_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/adminpanel/uploads/products/small/81725.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="80" column="107" selection-start-line="80" selection-start-column="107" selection-end-line="80" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/products/listing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
         </state>
       </provider>
     </entry>

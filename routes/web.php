@@ -15,6 +15,8 @@ Route::get('/','IndexController@index')->name('indexpage');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/products/{slug}','FrontController@products')->name('products');
+Route::get('/product/{id}','FrontController@product')->name('single.product');
 
 
 

@@ -66,13 +66,13 @@ class ProductsController extends Controller
         return view('admin.products.add_product' ,compact('categories_dropdown'));
     }
 
-    public function viewproducts(){
-        $products = Products::latest()->get();
+        public function viewproducts(){
+            $products = Products::latest()->get();
 
-        foreach($products as $key => $val){
-            $category_name = Category::where(['id' => $val->category_id])->first();
-            $products[$key]->category_name = $category_name->name;
-        }
+            foreach($products as $key => $val){
+                $category_name = Category::where(['id' => $val->category_id])->first();
+                $products[$key]->category_name = $category_name->name;
+            }
 
         return view('admin.products.view_products',compact('products'));
     }
