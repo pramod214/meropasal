@@ -1,8 +1,6 @@
 @extends('frontend.includes.frontend_design')
 
 @section('content')
-
-
     <section>
         <div class="container">
             <div class="row">
@@ -52,9 +50,18 @@
                                 <img src="images/product-details/new.jpg" class="newarrival" alt="" />
                                 <h2>{{$productDetails->product_name}}</h2>
                                 <p>{{$productDetails->product_code}}</p>
+                                <p>
+                                    <select style="width:50% " id="selSize">
+                                        <option>Select Size</option>
+                                        @foreach($productDetails->attributes as $sizes)
+                                            <option value="{{$productDetails->id}}-{{$sizes->size}}">{{$sizes->size}}</option>
+                                        @endforeach
+                                    </select>
+                                </p>
+
                                 <img src="images/product-details/rating.png" alt="" />
                                 <span>
-									<span>Rs.{{$productDetails->price}}</span>
+									<span id="getPrice">Rs.{{$productDetails->price}}</span>
 									<label>Quantity:</label>
 									<input type="text" value="3" />
 									<button type="button" class="btn btn-fefault cart">
@@ -353,6 +360,7 @@
                 </div>
             </div>
         </div>
+    </section>
 @endsection
 
 
