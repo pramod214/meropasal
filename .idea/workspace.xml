@@ -241,13 +241,6 @@
       <change beforePath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/src/Assert.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hamroshop/vendor/webmozart/assert/src/Assert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_10_013138_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_10_013138_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/add_product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/add_product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/edit_product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/edit_product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/app/Http/Controllers/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/app/Http/Controllers/AboutController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project3/app/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/app/Portfolio.php" afterDir="false" />
@@ -294,10 +287,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="87" column="63" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+            <state relative-caret-position="90">
+              <caret line="164" column="100" selection-start-line="164" selection-start-column="100" selection-end-line="164" selection-end-column="100" />
+              <folding>
+                <element signature="e#40#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -381,8 +377,8 @@
         <option value="$PROJECT_DIR$/resources/views/admin/products/add_product.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/products/edit_product.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/products/view_products.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" />
       </list>
     </option>
   </component>
@@ -691,12 +687,12 @@
       <workItem from="1548700433158" duration="195000" />
       <workItem from="1548763662344" duration="2743000" />
       <workItem from="1548779288068" duration="4560000" />
-      <workItem from="1548817636348" duration="2128000" />
+      <workItem from="1548817636348" duration="2930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325704000" />
+    <option name="totallyTimeSpent" value="326506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -908,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -931,8 +920,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/products/detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="-7">
           <caret line="87" column="63" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="164" column="100" selection-start-line="164" selection-start-column="100" selection-end-line="164" selection-end-column="100" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
