@@ -30,6 +30,11 @@ class ProductsController extends Controller
             } else {
                 $product->description = " ";
             }
+            if (!empty($data['care'])) {
+                $product->care = $data['care'];
+            } else {
+                $product->care = " ";
+            }
             $product->price = $data['price'];
 
 
@@ -100,12 +105,16 @@ class ProductsController extends Controller
             if(empty($data{'description'})){
                 $data['description'] = "";
             }
+            if(empty($data{'care'})){
+                $data['care'] = "";
+            }
             Products::where(['id'=>$id])->update(['category_id' => $data['category_id'],
                 'product_name'=>ucwords(strtolower($data['product_name' ])),
                 'product_code'=>$data['product_code'] ,
                 'product_color'=>ucwords($data['product_color']),
                 'price'=>$data['price'],
                 'description'=>ucwords($data['description']),
+                'care'=>ucwords($data['care']),
                 'image'=>$filename
             ]);
             Session::flash('info','Products Updated Successfully');

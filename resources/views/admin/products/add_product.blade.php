@@ -86,6 +86,13 @@
                             </div>
 
                             <div class="form-group m-t-40 row">
+                                <label for="care" class="col-2 col-form-label">Care</label>
+                                <div class="col-10">
+                                    <textarea name="care" id="care" cols="30" rows="10" class="form-control col-12"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group m-t-40 row">
                                 <label for="name" class="col-2 col-form-label">Product Image</label>
                                 <div class="col-10">
                                     <input class="form-control" type="file" name="image" id="image">

@@ -80,10 +80,15 @@
                                                     <p><strong>Product Code : </strong> {{$product->product_code}}</p>
                                                     <p><strong>Product Color : </strong> {{$product->product_color}}</p>
                                                     <p><strong>Product Price : </strong> {{$product->price}}</p>
-                                                    <p><strong>Description</strong></p>
-                                                    {!! htmlspecialchars_decode($product->description) !!}
-
+                                                    <p><strong>Description</strong>
+                                                    {{$product->description}}
+                                                    </p>
+                                                    <p>
+                                                        <strong>Care:</strong>
+                                                        {{$product->care}}
+                                                    </p>
                                                 </div>
+
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Close</button>
                                                 </div>
