@@ -67,6 +67,9 @@
                                             <a href="{{route('product.addAttribute',$product->id)}}" class="btn btn-info">
                                                 <i class="fa fa-plus"></i>
                                             </a>
+                                            <a href="{{route('alt.image',$product->id)}}" class="btn btn-success">
+                                                <i class="fa fa-images"></i>
+                                            </a>
                                         </td>
                                     </tr>
                                     <div id="myModal{{$product->id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

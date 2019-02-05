@@ -22,6 +22,7 @@ Route::post('product/get-product-price','ProductsController@getProductPrice');
 
 
 
+
 //Route::get('/adminLogin', 'AdminController@login')->name('admin.login');
 Route::match(['get', 'post'], '/adminLogin', 'AdminController@login')->name('admin.login');
 
@@ -43,6 +44,8 @@ Route::group(['middleware' => ['auth']], function(){
 
     Route::match(['get','post'],'/admin/add_attributes/{id}','ProductsController@addAttributes')->name('product.addAttribute');
     Route::get('/admin/delete-attribute/{id}', 'ProductsController@deleteAttribute')->name('delete.attribute');
+    Route::match(['get','post'],'/admin/add-images/{id}','ProductsController@addImages')->name('alt.image');
+    Route::get('/admin/delete-alt-image/{id}', 'ProductsController@deleteAltImage')->name('alt.delete');
 });
 
 

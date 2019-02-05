@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\ProductImage;
 use App\Products;
 use Illuminate\Http\Request;
 
@@ -37,7 +38,10 @@ class FrontController extends Controller
 
        $productDetails = Products::with('attributes')->where('id',$id)->first();
        $categories = Category::with('categories')->where(['parent_id'=>0])->get();
-       return view('frontend.products.detail',compact('productDetails','categories'));
+
+       $productImage = ProductImage::where(['product_id'=>$id])->get();
+       return view('frontend.products.detail',compact('productDetails','categories','productImage'));
     }
 
-    }
+
+}

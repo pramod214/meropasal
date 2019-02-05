@@ -28,5 +28,12 @@
             });
         });
     });
+
+    $(document).ready(function(){
+        $(".changeImage").click(function(){
+           var image = $(this).attr('src');
+           $(".mainImage").attr('src',image);
+        });
+    });
 </script>
 
