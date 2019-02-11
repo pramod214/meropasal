@@ -155,37 +155,7 @@
         });
     </script>
 
-    <script type="text/javascript">
-        $(document).ready(function(){
-            var maxField = 10; //Input fields increment limitation
-            var addButton = $('.add_button'); //Add button selector
-            var wrapper = $('.field_wrapper'); //Input field wrapper
-            var fieldHTML = '<div class="field_wrapper"> <div> <input type="text" name="sku[]" id="sku" placeholder="SKU" width="120px;">' +
-                ' <input type="text" name="size[]" id="size" placeholder="Size" width="120px;"> ' +
-                '<input type="text" name="price[]" id="price" placeholder="Price" width="120px;"> ' +
-                '<input type="text" name="stock[]" id="stock" placeholder="Stock" width="120px;">' +
-                ' <a href="javascript:void(0);" class="remove_button"> Remove </a></div> ' +
-                ' </div> ';
 
-            var x = 1; //Initial field counter is 1
-
-            //Once add button is clicked
-            $(addButton).click(function(){
-                //Check maximum number of input fields
-                if(x < maxField){
-                    x++; //Increment field counter
-                    $(wrapper).append(fieldHTML); //Add field html
-                }
-            });
-
-            //Once remove button is clicked
-            $(wrapper).on('click', '.remove_button', function(e){
-                e.preventDefault();
-                $(this).parent('div').remove(); //Remove field html
-                x--; //Decrement field counter
-            });
-        });
-    </script>
     <script>
         @if(Session::has('success'))
         toastr.success('{{Session::get('success')}}')

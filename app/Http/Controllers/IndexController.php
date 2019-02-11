@@ -9,8 +9,8 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function index(){
-        $products = Products::latest()->get();
+        $productAll = Products::latest()->where('status','=',1)->get();
         $categories = Category::with('categories')->where(['parent_id' => 0])->get();
-        return view('frontend.index',compact('products','categories'));
+        return view('frontend.index',compact('productAll','categories'));
     }
 }

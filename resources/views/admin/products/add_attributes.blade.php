@@ -61,7 +61,7 @@
 
 
 
-                            <form method="post" action="" name="add_attribute" id="add_attribute">
+                            <form method="post" action="{{route('product.addAttribute',$productDetails->id)}}" name="add_attribute" id="add_attribute">
                                 @csrf
                                 <input type="hidden" name="product_id" value="{{$productDetails->id}}">
                                 <div class="control-group">
@@ -92,6 +92,9 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Products Attributes</h4>
                                         <div class="table-responsive">
+                                            <form action="{{route('product.editAttribute',$productDetails->id)}}" method="post">
+                                                @csrf
+
                                             <table id="zero_config" class="table table-striped table-bordered">
                                                 <thead>
                                                 <tr>
@@ -106,12 +109,20 @@
                                                 <tbody>
                                                 @foreach($productDetails['attributes'] as $attribute)
                                                     <tr>
-                                                        <td>{{$loop->index +1}}</td>
+
+                                                        <td>
+                                                            <input type="hidden" name="idAttr[]" value="{{$attribute->id}}">
+                                                            {{$loop->index +1}}</td>
                                                         <td>{{$attribute->sku}}</td>
                                                         <td>{{$attribute->size}}</td>
-                                                        <td>{{$attribute->price}}</td>
-                                                        <td>{{$attribute->stock}}</td>
                                                         <td>
+                                                            <input type="text" name="price[]" value="{{$attribute->price}}">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="stock[]" value="{{$attribute->stock}}">
+                                                        </td>
+                                                        <td>
+                                                            <input type="submit" value="Update" class="btn btn-primary">
                                                             <a rel="{{$attribute->id}}" rel1="delete-attribute" href="javascript:" class="btn btn-danger deleteRecord">
                                                                 Delete
                                                             </a>
@@ -121,6 +132,7 @@
                                                 </tbody>
 
                                             </table>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -139,8 +151,39 @@
 
 @endsection
 
+@section('style')
+    <link href="{{asset('public/adminpanel/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('public/adminpanel/sweetalert/sweetalert.css')}}">
+@endsection
 
 @section('script')
+
+    <script src="{{asset('public/adminpanel/assets/extra-libs/DataTables/datatables.min.js')}}"></script>
+    <script src="{{asset('public/adminpanel/dist/js/pages/datatable/datatable-basic.init.js')}}"></script>
+
+    <script type="text/javascript" src="{{asset('public/adminpanel/sweetalert/sweetalert.min.js')}}">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".deleteRecord").click(function(){
+                var id = $(this).attr('rel');
+                var deleteFunction = $(this).attr('rel1');
+                swal({
+                        title: "Are You Sure",
+                        text: "You will not be able to recover this record again",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonClass: "btn-danger",
+                        confirmButtonText: "Yes, Delete it!"
+                    },
+                    function(){
+                        window.location.href="/meropasal/admin/"+deleteFunction+"/"+id;
+                    }
+                );
+            });
+        });
+    </script>
+
     <script type="text/javascript">
         $(document).ready(function(){
             var maxField = 10; //Input fields increment limitation

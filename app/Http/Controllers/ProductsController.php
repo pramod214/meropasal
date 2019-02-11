@@ -38,6 +38,14 @@ class ProductsController extends Controller
             }
             $product->price = $data['price'];
 
+            if(empty($data['status'])){
+                $status = 0;
+            } else {
+                $status = 1;
+            }
+            $product->status = $status;
+
+
 
             if($request->hasFile('image')){
                 $image_tmp = Input::file('image');
@@ -109,11 +117,18 @@ class ProductsController extends Controller
             if(empty($data{'care'})){
                 $data['care'] = "";
             }
+            if(empty($data['status'])){
+                $data['status'] = "0";
+            } else {
+                $data['status'] = "1";
+            }
+
             Products::where(['id'=>$id])->update(['category_id' => $data['category_id'],
                 'product_name'=>ucwords(strtolower($data['product_name' ])),
                 'product_code'=>$data['product_code'] ,
                 'product_color'=>ucwords($data['product_color']),
                 'price'=>$data['price'],
+
                 'description'=>ucwords($data['description']),
                 'care'=>ucwords($data['care']),
                 'image'=>$filename
@@ -161,7 +176,7 @@ class ProductsController extends Controller
                     }
 
 //                    Size check
-                    $attrCountSize = ProductsAttribute::where(['parent_id'=>$id,'size'=>$data['size'][$key]])->count();
+                    $attrCountSize = ProductsAttribute::where(['product_id'=>$id,'size'=>$data['size'][$key]])->count();
                     if($attrCountSize>0){
                         return redirect()->back()->with('flash_message_error','Size Already Exist');
                     }
@@ -180,7 +195,7 @@ class ProductsController extends Controller
         return view('admin.products.add_attributes',compact('productDetails'));
     }
     public function deleteAttribute($id){
-        $attribute = ProductsssAttribute::findOrFail($id);
+        $attribute = ProductsAttribute::findOrFail($id);
         $attribute -> delete();
         Session::flash('danger','Product Attribute Has Been Deleted Successfully');
         return redirect()->back();
@@ -188,8 +203,10 @@ class ProductsController extends Controller
     public function getProductPrice(Request $request){
         $data = $request->all();
         $proArr = explode("-",$data['idSize']);
-        $proAttr = ProductsAttribute::where(['product_id'=>$proArr[0],'size'=>$proArr[1]])->first();
+        $proAttr = ProductsAttribute::where(['product_id'=> $proArr[0],'size'=>$proArr[1]])->first();
         echo $proAttr->price;
+        echo "#";
+        echo $proAttr->stock;
     }
 
     public function addImages(Request $request,$id){
@@ -243,6 +260,18 @@ class ProductsController extends Controller
         $productImage->delete();
         Session::flash('error', 'Product Image Deleted');
         return redirect()->back();
-
     }
+
+    public function editAttributes(Request $request, $id){
+        if($request->isMethod('post')){
+            $data = $request->all();
+//            echo "<pre>"; print_r($data); die;
+            foreach($data['idAttr'] as $key => $attr){
+                ProductsAttribute::where(['id' => $data['idAttr'][$key]])->update(['price' => $data['price'][$key], 'stock' => $data['stock'][$key]]);
+            }
+            Session::flash('success', 'Product Attribute Updated');
+            return redirect()->back();
+        }
+    }
+
 }

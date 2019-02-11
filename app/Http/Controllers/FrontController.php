@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\ProductImage;
 use App\Products;
+use App\ProductsAttribute;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
@@ -40,7 +41,9 @@ class FrontController extends Controller
        $categories = Category::with('categories')->where(['parent_id'=>0])->get();
 
        $productImage = ProductImage::where(['product_id'=>$id])->get();
-       return view('frontend.products.detail',compact('productDetails','categories','productImage'));
+       $total_stock = ProductsAttribute::where(['product_id'=>$id])->sum('stock');
+       $relatedProducts = Products::findOrFail($id)->where(['category_id'=>$productDetails->category_id])->get();
+       return view('frontend.products.detail',compact('productDetails','categories','productImage','total_stock', 'relatedProducts'));
     }
 
 

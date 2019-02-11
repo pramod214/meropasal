@@ -19,11 +19,17 @@ Route::get('/products/{slug}','FrontController@products')->name('products');
 Route::get('/product/{id}','FrontController@product')->name('single.product');
 
 Route::post('product/get-product-price','ProductsController@getProductPrice');
+Route::match(['get', 'post'], '/add-cart', 'CartController@addtoCart')->name('addtocart');
+
+Route::match(['get', 'post'], '/cart', 'CartController@cart')->name('cart');
+Route::get('/cart/delete-product/{id}', 'CartController@deleteCart')->name('delete.cart');
+
+Route::get('/cart/update-quantity/{id}/{quantity}', 'CartController@updateCartQuantity')->name('update.cart');
 
 
 
 
-//Route::get('/adminLogin', 'AdminController@login')->name('admin.login');
+
 Route::match(['get', 'post'], '/adminLogin', 'AdminController@login')->name('admin.login');
 
 Route::group(['middleware' => ['auth']], function(){
@@ -43,6 +49,7 @@ Route::group(['middleware' => ['auth']], function(){
     Route::get('/admin/delete-product/{id}','ProductsController@deleteproduct')->name('product.delete');
 
     Route::match(['get','post'],'/admin/add_attributes/{id}','ProductsController@addAttributes')->name('product.addAttribute');
+    Route::match(['get','post'],'/admin/edit-attribute/{id}','ProductsController@editAttributes')->name('product.editAttribute');
     Route::get('/admin/delete-attribute/{id}', 'ProductsController@deleteAttribute')->name('delete.attribute');
     Route::match(['get','post'],'/admin/add-images/{id}','ProductsController@addImages')->name('alt.image');
     Route::get('/admin/delete-alt-image/{id}', 'ProductsController@deleteAltImage')->name('alt.delete');
