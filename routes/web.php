@@ -53,6 +53,11 @@ Route::group(['middleware' => ['auth']], function(){
     Route::get('/admin/delete-attribute/{id}', 'ProductsController@deleteAttribute')->name('delete.attribute');
     Route::match(['get','post'],'/admin/add-images/{id}','ProductsController@addImages')->name('alt.image');
     Route::get('/admin/delete-alt-image/{id}', 'ProductsController@deleteAltImage')->name('alt.delete');
+
+    Route::match(['get','post'],'/admin/store/slider','SliderController@storeSlider')->name('store.slider');
+    Route::get('/admin/view/sliders','SliderController@viewSlider')->name('view.sliders');
+    Route::match(['get','post'],'admin/update/slider/{id}','SliderController@editSlider')->name('edit.slider');
+    Route::get('/admin/delete-slider/{id}','SliderController@deleteSlider')->name('delete.slider');
 });
 
 

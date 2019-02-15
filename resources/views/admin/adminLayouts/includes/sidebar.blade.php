@@ -99,6 +99,29 @@
                     </ul>
                 </li>
 
+                <li class="sidebar-item">
+                    <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                        <i class="fas fa-filter"></i>
+                        <span class="hide-menu">Slider</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse  first-level">
+                        <li class="sidebar-item">
+                            <a href="{{route('store.slider')}}" class="sidebar-link">
+                                <i class="icon-Record"></i>
+                                <span class="hide-menu"> Add Slider</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="{{route('view.sliders')}}" class="sidebar-link">
+                                <i class="icon-Record"></i>
+                                <span class="hide-menu"> View Slider</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+
+
 
 
             </ul>
