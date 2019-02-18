@@ -152,8 +152,10 @@
         $( function() {
             $( "#expiry_date" ).datepicker({
                 minDate: 0,
-                dateFormat: 'yy-mm-dd'
+                dateFormat: 'yy-mm-dd',
+                changeMonth:true,
+                changeYear:true
             });
-        } );
+        });
     </script>
 @endsection

@@ -22,7 +22,7 @@ class CouponsController extends Controller
                 $coupon->status = 1;
             }
             $coupon->save();
-            Session::flash('success', 'Coupon Created');
+            Session::flash('success', 'Coupon Created Successfully');
             return redirect()->route('view.coupons');
         }
         return view ('admin.products.add_coupon');
@@ -45,7 +45,7 @@ class CouponsController extends Controller
                 $coupon->status = 1;
             }
             $coupon->save();
-            Session::flash('success', 'Updated');
+            Session::flash('success', 'Coupon Updated Successfully');
             return redirect()->route('view.coupons');
         }
         return view ('admin.products.edit_coupon', compact('coupon'));
@@ -53,16 +53,19 @@ class CouponsController extends Controller
     public function deleteCoupon($id){
         $coupon = Coupon::find($id);
         $coupon->delete();
-        Session::flash('error', 'Deleted');
+        Session::flash('error', 'Coupon Deleted Successfully');
         return redirect()->route('view.coupons');
+
     }
     public function applyCoupon(Request $request){
         $data = $request->all();
-        $couponCount = Coupon::where('coupon_code' , $data['coupon_code'])->count();
-        if($couponCount == 0 ){
-            return redirect()->back()->with('flash_message_success', 'Coupon Is Invalid');
-        } else {
-            echo "Success"; die;
+
+        $couponCount = Coupon::where('coupon_code',$data['coupon_code'])->count();
+        if($couponCount == 0){
+            return redirect()->back()->with('flash_message_error','Coupon Is Invalid');
+        }else{
+            echo'success'; die;
         }
+
     }
 }

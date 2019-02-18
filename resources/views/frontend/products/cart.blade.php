@@ -11,6 +11,12 @@
                 </ol>
             </div>
             <div class="table-responsive cart_info">
+                @if(Session::has('flash_message_error'))
+                    <div class="alert alert-danger alert-block">
+                        <button type="button" class="close" data-dismiss="alert">×</button>
+                        <strong>{!! session('flash_message_error') !!}</strong>
+                    </div>
+                @endif
                 <table class="table table-condensed">
                     <thead>
                     <tr class="cart_menu">
@@ -51,7 +57,7 @@
                             <a class="cart_quantity_delete" href="{{route('delete.cart',$cart->id)}}"><i class="fa fa-times"></i></a>
                         </td>
                     </tr>
-                        <?php $total_amount = $total_amount+($cart->price *$cart->quantity)?>;
+                        <?php $total_amount = $total_amount+($cart->price *$cart->quantity)?>
                     @endforeach
 
                     </tbody>
@@ -69,10 +75,16 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="chose_area">
-
-
-                        <a class="btn btn-default update" href="">Get Quotes</a>
-                        <a class="btn btn-default check_out" href="">Continue</a>
+                        <ul class="user_option">
+                            <li>
+                                <label>Coupon Code</label>
+                                <form action="{{route('apply.coupon')}}" method="post">
+                                    @csrf
+                                    <input type="text" name="coupon_code">
+                                    <input type="submit" value="Apply" class="btn btn-primary">
+                                </form>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-sm-6">

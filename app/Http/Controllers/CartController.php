@@ -48,7 +48,7 @@ class CartController extends Controller
     public function deleteCart($id){
         $cart = Cart::findOrFail($id);
         $cart->delete();
-        return redirect()->back()->with('flash_message_success', 'Cart Item Deleted');
+        return redirect()->back()->with('flash_message_error','Cart Item Deleted');
     }
 
     public function updateCartQuantity($id,$quantity){

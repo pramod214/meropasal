@@ -26,6 +26,8 @@ Route::get('/cart/delete-product/{id}', 'CartController@deleteCart')->name('dele
 
 Route::get('/cart/update-quantity/{id}/{quantity}', 'CartController@updateCartQuantity')->name('update.cart');
 
+Route::post('/cart/apply-coupon', 'CouponsController@applyCoupon')->name('apply.coupon');
+
 
 
 
