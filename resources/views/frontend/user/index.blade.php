@@ -79,4 +79,15 @@
                 });
             });
     </script>
+
+    <script src="{{asset('public/frontpanel/js/jquery.passtrength.js')}}"></script>
+                <script>
+                $("#password").passtrength({
+                    minChars: 4,
+                    passwordToggle: true,
+                    tooltip: true,
+                    eyeImg: "http://localhost:8000/meropasal/public/frontpanel/images/eye.svg"
+                });
+    </script>
+
 @endsection

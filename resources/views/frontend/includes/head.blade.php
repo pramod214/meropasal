@@ -12,5 +12,6 @@
     <link href="{{asset('public/frontpanel/css/animate.css')}}" rel="stylesheet">
     <link href="{{asset('public/frontpanel/css/main.css')}}" rel="stylesheet">
     <link href="{{asset('public/frontpanel/css/responsive.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('public/frontpanel/css/passtrength.css')}}">
 
     <!--[if lt IE 9]>
