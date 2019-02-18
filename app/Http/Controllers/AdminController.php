@@ -20,7 +20,7 @@ class AdminController extends Controller
                 'admin'=>'1'])){
                 return redirect()->route('admin.dashboard');
             } else {
-                return redirect()->route('admin.login')->with('flash_message_error', 'Invalid Username and Password');
+                return redirect()->route('admin.user')->with('flash_message_error', 'Invalid Username and Password');
             }
         }
         return view ('admin.admin_login');
@@ -33,7 +33,7 @@ class AdminController extends Controller
 
     public function logout(){
         Session::flush();
-        return redirect()->route('admin.login')->with('flash_message_success', 'Log Out Successfull');
+        return redirect()->route('admin.user')->with('flash_message_success', 'Log Out Successfull');
     }
 
     public function profile($id){

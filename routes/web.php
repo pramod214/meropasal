@@ -28,11 +28,13 @@ Route::get('/cart/update-quantity/{id}/{quantity}', 'CartController@updateCartQu
 
 Route::post('/cart/apply-coupon', 'CouponsController@applyCoupon')->name('apply.coupon');
 
+Route::match(['get', 'post'], '/user-register', 'UsersController@register')->name('login.register');
 
 
 
 
-Route::match(['get', 'post'], '/adminLogin', 'AdminController@login')->name('admin.login');
+
+Route::match(['get', 'post'], '/adminLogin', 'AdminController@user')->name('admin.user');
 
 Route::group(['middleware' => ['auth']], function(){
     Route::get('/admin/dashboard', 'AdminController@dashboard')->name('admin.dashboard');

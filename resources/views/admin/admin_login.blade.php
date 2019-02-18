@@ -64,7 +64,7 @@
                 <!-- Form -->
                 <div class="row">
                     <div class="col-12">
-                        <form class="form-horizontal m-t-20" id="loginform" action="{{route('admin.login')}}" method="post">
+                        <form class="form-horizontal m-t-20" id="loginform" action="{{route('user')}}" method="post">
                             @csrf
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
