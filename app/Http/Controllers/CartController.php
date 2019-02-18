@@ -12,8 +12,12 @@ class CartController extends Controller
     public function addtoCart(Request $request)
     {
         if ($request->isMethod('post')) {
+
+            Session::forget('CouponAmount');
+            Session::forget('CouponCode');
+
             $data = $request->all();
-//dd($data);
+            //dd($data);
             if (empty($data['user_email'])) {
                 $data['user_email'] = "";
             }
@@ -46,12 +50,16 @@ class CartController extends Controller
     }
 
     public function deleteCart($id){
+        Session::forget('CouponAmount');
+        Session::forget('CouponCode');
         $cart = Cart::findOrFail($id);
         $cart->delete();
         return redirect()->back()->with('flash_message_error','Cart Item Deleted');
     }
 
     public function updateCartQuantity($id,$quantity){
+        Session::forget('CouponAmount');
+        Session::forget('CouponCode');
         DB::table('carts')->where('id',$id)->increment('quantity',$quantity);
         return redirect()->back()->with('flash_message_success', 'Cart Updated');
     }
