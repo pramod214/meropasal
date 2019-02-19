@@ -13,9 +13,10 @@
                 <div class="col-sm-4 col-sm-offset-1">
                     <div class="login-form"><!--user form-->
                         <h2>Login to your account</h2>
-                        <form action="#">
-                            <input type="text" placeholder="Name" />
-                            <input type="email" placeholder="Email Address" />
+                        <form action="{{route('user.login')}}" method="post" id="loginForm" name="loginForm">
+                            @csrf
+                            <input type="email" placeholder="Email Address" name="email" id="email"/>
+                            <input type="password" placeholder="Password" name="password" id="password" />
                             <span>
 								<input type="checkbox" class="checkbox">
 								Keep me signed in
@@ -86,8 +87,49 @@
                     minChars: 4,
                     passwordToggle: true,
                     tooltip: true,
-                    eyeImg: "http://localhost:8000/meropasal/public/frontpanel/images/eye.svg"
+                    eyeImg: "http://localhost/meropasal/public/frontpanel/images/eye.svg"
                 });
     </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#loginForm").validate({
+                rules: {
+
+                    email:{
+                        required: true,
+                        email: true
+                    },
+                    password:{
+                        required: true,
+                        minLength: 6
+                    }
+                } ,
+                messages : {
+
+                    email: {
+                        required: "<span class='text-danger'> Please Enter Email </span>",
+                        email: "<span class='text-danger'> Please Enter Valid Email </span>"
+                    },
+                    password:{
+                        required: "<span class='text-danger'> Please Enter Password </span>",
+                        minLength: "<span class='text-danger'> Password must be more than 6 characters </span>"
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script src="{{asset('public/frontpanel/js/jquery.passtrength.js')}}"></script>
+    <script>
+        $("#password").passtrength({
+            minChars: 4,
+            passwordToggle: true,
+            tooltip: true,
+            eyeImg: "http://localhost/meropasal/public/frontpanel/images/eye.svg"
+        });
+    </script>
+
+
 
 @endsection
